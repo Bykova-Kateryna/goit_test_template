@@ -16,7 +16,13 @@ const UserList = ({ allUser }) => {
   const handleChangeFollow = id => {
     const newUsers = users.map(user => {
       if (user.id === id) {
-        user.follow = !user.follow;
+        if(user.follow === false){
+          user.followers = user.followers + 1;
+          user.follow = true;
+        } else {
+          user.followers = user.followers - 1;
+          user.follow = false;
+        }
       }
       return user;
     });

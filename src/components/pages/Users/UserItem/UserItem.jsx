@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const UserItem = ({ userInfo, following }) => {
   const [isFollow, setIsFollow] = useState(userInfo.follow);
-
+  const [followers, setFollovers] = useState(userInfo.followers);
   const followersFormater = val => {
     const format = new Intl.NumberFormat('en-US').format(val);
     return format;
@@ -28,7 +28,7 @@ const UserItem = ({ userInfo, following }) => {
           </li>
           <li className={scss.user__item__info_discription}>
             <span className={scss.user__info_number}>
-              {followersFormater(userInfo.followers)}
+              {followersFormater(followers)}
             </span>
             followers
           </li>
@@ -38,6 +38,7 @@ const UserItem = ({ userInfo, following }) => {
             onClick={() => {
               following(userInfo.id);
               setIsFollow(!isFollow);
+              setFollovers(followers - 1)
             }}
             className={`${scss.secondary__btn} ${scss.btn}`}
           >
@@ -48,6 +49,7 @@ const UserItem = ({ userInfo, following }) => {
             onClick={() => {
               following(userInfo.id);
               setIsFollow(!isFollow);
+              setFollovers(followers + 1)
             }}
             className={`${scss.primary__btn} ${scss.btn}`}
           >
