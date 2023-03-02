@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "user": "Elon Reeve Musk",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 2,
+    "user": "Anthony Hopkins",
+    "tweets": 80,
+    "followers": 1000786,
+    "avatar": "https://i.pinimg.com/originals/ef/3a/9e/ef3a9e6d6992484bbdabead3c9465070.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 3,
+    "user": "Jessica Alba",
+    "tweets": 77,
+    "followers": 100500800,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/TechCrunch_Disrupt_NY_2016_-_Day_3_%2826884815511%29_%28cropped%29.jpg/1200px-TechCrunch_Disrupt_NY_2016_-_Day_3_%2826884815511%29_%28cropped%29.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 4,
+    "user": "Aldus Snow",
+    "tweets": 7777,
+    "followers": 1005008006,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Russell_Brand_Arthur_Premier.jpg/170px-Russell_Brand_Arthur_Premier.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 5,
+    "user": "Marja Ivanovna",
+    "tweets": 7,
+    "followers": 666,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Maria_Ivanovna_Kochubey.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 6,
+    "user": "Steve Jobs",
+    "tweets": 14,
+    "followers": 1005887,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 7,
+    "user": "Stepan Bendera",
+    "tweets": 1,
+    "followers": 100500999999,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/SBandera.jpg/274px-SBandera.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 8,
+    "user": "Boris Johnson",
+    "tweets": 99,
+    "followers": 10088500,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Boris_Johnson_official_portrait_%28cropped%29.jpg/800px-Boris_Johnson_official_portrait_%28cropped%29.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 9,
+    "user": "Dart Veyder",
+    "tweets": 10,
+    "followers": 1000000,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Darth_Alekseevich_Vader.jpg",
+    "follow": false
+  },
+
+  {
+    "id": 10,
+    "user": "Elay",
+    "tweets": 90,
+    "followers": 100,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Elijah_Wood_%2847955397556%29_%28cropped%29.jpg/1200px-Elijah_Wood_%2847955397556%29_%28cropped%29.jpg",
+    "follow": false
+  }
+]

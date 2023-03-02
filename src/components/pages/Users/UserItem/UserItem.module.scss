@@ -1,0 +1,85 @@
+@import '../../../helpers/button.module.scss';
+
+.user__item__container {
+    width: 380px;
+    height: 460px;
+    background-image: url('../../../images/picture.png'), linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    padding: 20px 20px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user__logo {
+    text-align: start;
+}
+
+.user__image__container {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 85.9232px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: -30px;
+    left: 39.6%;
+}
+
+.user__item__info {
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
+
+.icon__line {
+    position: absolute;
+    height: 8px;
+    width: 380px;
+    top: 0;
+    left: -20px;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF;
+    background: #EBD8FF;
+}
+
+.icon__elips {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: #EBD8FF;
+    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF;
+    border-radius: 85.9232px;
+    top: -35px;
+    left: 38.2%;
+}
+
+.user__item__info_title {
+    margin-top: 55px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #c8bbd6;
+}
+
+.user__item__info_discription {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.user__info_number {
+    margin-right: 6px;
+}
