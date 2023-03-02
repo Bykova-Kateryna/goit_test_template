@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit_test_template/static/css/main.ac3acc76.css",
+    "main.js": "/goit_test_template/static/js/main.dd63276b.js",
+    "static/media/picture.png": "/goit_test_template/static/media/picture.032662a2a907475127d7.png",
+    "index.html": "/goit_test_template/index.html",
+    "main.ac3acc76.css.map": "/goit_test_template/static/css/main.ac3acc76.css.map",
+    "main.dd63276b.js.map": "/goit_test_template/static/js/main.dd63276b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac3acc76.css",
+    "static/js/main.dd63276b.js"
+  ]
+}
